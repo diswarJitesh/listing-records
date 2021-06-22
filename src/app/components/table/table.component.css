@@ -1,0 +1,82 @@
+body {
+    padding:20px 20px;
+}
+  
+.results tr[visible='false'],
+.no-result{
+    display:none;
+}
+
+.results tr[visible='true']{
+    display:table-row;
+}
+
+.counter{
+    padding:8px; 
+    color:#ccc;
+}
+.main-table{
+    max-width: 1170px;
+    width: 100%;
+    margin: 80px auto 0;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.main-table table tr td, .main-table table tr th {
+    border: 1px solid #000;
+    padding: 10px;
+}
+.table-header input, .table-header select{
+    height: 45px;
+    border: 1px solid #000;
+    padding:0 20px;
+    width: 100%;
+   
+}
+.table-header select, .table-header label  {
+    margin-left: 20px;
+}
+.table-header label, .table-header input  {
+    display: block;
+    width: 100%;
+    font-size: 16px;
+}
+.table-header-left{
+    width: calc(100% - 512px);
+}
+.table-header-right {
+    width: 500px;
+    margin-left: 30px;
+    display: flex;
+}
+.table-header-right div {
+    width: 50%;
+}
+.table-header{
+    display: flex;
+}
+.toggle-arow div{
+    display: flex;
+    
+    flex-direction: column;
+}
+.toggle-arow {
+    display: inline-block;
+    cursor: pointer;
+}
+.toggle-arow div span {
+    font-size: 15px;
+    height: 5px;
+}
+.table-total-length {
+    margin-top: 20px;
+    font-size: 20px;
+}
+th.col-md-6.col-xs-6 {
+    cursor: pointer;
+}
+*{
+    box-sizing: border-box;
+}
